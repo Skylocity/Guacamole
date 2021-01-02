@@ -1,0 +1,1 @@
+D:\Documents\Ties\Code\Github\Guacamole\build\classes\kotlin\main\net\skylocity\butterness\guacamole\Bot.class;D:\Documents\Ties\Code\Github\Guacamole\build\classes\kotlin\main\net\skylocity\butterness\guacamole\BotKt.class

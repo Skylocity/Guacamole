@@ -1,0 +1,32 @@
+buildscript {
+    ext.kotlin_version = '1.4.21'
+
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+plugins {
+    id 'com.github.johnrengelman.shadow' version '6.1.0'
+    id 'application'
+}
+
+apply plugin: 'kotlin'
+
+group 'net.skylocity.guacamole'
+version '1.0-SNAPSHOT'
+
+ext.main = 'Main'
+mainClassName = "$group.${main}"
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'net.dv8tion:JDA:4.2.0_225'
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+}
